@@ -1,0 +1,42 @@
+[
+  {
+    "antecedents": ["4001", "4003"],
+    "consequent": "4002",
+    "confidence": 0.90,
+    "support": 0.12,
+    "lift": 5.4,
+    "description": "Cuba de pia + Válvula de pia -> Sifão Sanfonado (Cozinha)"
+  },
+  {
+    "antecedents": ["5001"],
+    "consequent": "5004",
+    "confidence": 0.70,
+    "support": 0.15,
+    "lift": 3.2,
+    "description": "Tinta Acrílica -> Fita Crepe Larga (Pintura)"
+  },
+  {
+    "antecedents": ["2001"],
+    "consequent": "2003",
+    "confidence": 0.85,
+    "support": 0.20,
+    "lift": 4.1,
+    "description": "Cabo Elétrico -> Fita Isolante (Elétrica)"
+  },
+  {
+    "antecedents": ["1001", "1003"],
+    "consequent": "1002",
+    "confidence": 0.95,
+    "support": 0.18,
+    "lift": 6.2,
+    "description": "Cano PVC + Adesivo Plástico -> Luva Soldável (Hidráulica)"
+  },
+  {
+    "antecedents": ["3001"],
+    "consequent": "3003",
+    "confidence": 0.80,
+    "support": 0.10,
+    "lift": 4.5,
+    "description": "Bacia sanitária -> Anel de Vedação (Banheiro)"
+  }
+]

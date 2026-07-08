@@ -1,0 +1,177 @@
+[
+  {
+    "id": "1001",
+    "name": "Cano PVC Soldável 25mm 3m",
+    "category": "Hidráulica",
+    "subcategory": "Tubos e Conexões",
+    "price": 18.90
+  },
+  {
+    "id": "1002",
+    "name": "Luva Soldável 25mm",
+    "category": "Hidráulica",
+    "subcategory": "Tubos e Conexões",
+    "price": 1.20
+  },
+  {
+    "id": "1003",
+    "name": "Adesivo Plástico para PVC 75g",
+    "category": "Hidráulica",
+    "subcategory": "Químicos e Vedação",
+    "price": 12.50
+  },
+  {
+    "id": "1004",
+    "name": "Fita Veda Rosca 18mm x 10m",
+    "category": "Hidráulica",
+    "subcategory": "Químicos e Vedação",
+    "price": 3.80
+  },
+  {
+    "id": "1005",
+    "name": "Torneira Plástica para Tanque 1/2",
+    "category": "Hidráulica",
+    "subcategory": "Metais e Torneiras",
+    "price": 9.90
+  },
+  {
+    "id": "2001",
+    "name": "Cabo Elétrico Flexível 2.5mm 50m",
+    "category": "Elétrica",
+    "subcategory": "Fios e Cabos",
+    "price": 89.90
+  },
+  {
+    "id": "2002",
+    "name": "Disjuntor Din Monopolar 20A",
+    "category": "Elétrica",
+    "subcategory": "Disjuntores",
+    "price": 14.90
+  },
+  {
+    "id": "2003",
+    "name": "Fita Isolante Imperial 10m",
+    "category": "Elétrica",
+    "subcategory": "Acessórios",
+    "price": 5.50
+  },
+  {
+    "id": "2004",
+    "name": "Caixa de Luz 4x2 Amarela",
+    "category": "Elétrica",
+    "subcategory": "Acessórios",
+    "price": 1.80
+  },
+  {
+    "id": "2005",
+    "name": "Interruptor Simples com Tomada 10A",
+    "category": "Elétrica",
+    "subcategory": "Interruptores e Tomadas",
+    "price": 16.50
+  },
+  {
+    "id": "3001",
+    "name": "Bacia com Caixa Acoplada Branca",
+    "category": "Banheiro",
+    "subcategory": "Louças e Metais",
+    "price": 349.90
+  },
+  {
+    "id": "3002",
+    "name": "Assento Sanitário Almofadado Branco",
+    "category": "Banheiro",
+    "subcategory": "Acessórios",
+    "price": 49.90
+  },
+  {
+    "id": "3003",
+    "name": "Anel de Vedação para Vaso Sanitário com Guia",
+    "category": "Banheiro",
+    "subcategory": "Acessórios",
+    "price": 15.90
+  },
+  {
+    "id": "3004",
+    "name": "Engate Flexível Inox 40cm",
+    "category": "Banheiro",
+    "subcategory": "Acessórios",
+    "price": 22.90
+  },
+  {
+    "id": "3005",
+    "name": "Ducha Higiênica com Registro Abs Branca",
+    "category": "Banheiro",
+    "subcategory": "Louças e Metais",
+    "price": 39.90
+  },
+  {
+    "id": "4001",
+    "name": "Cuba de Pia Inox Gourmet 50x40cm",
+    "category": "Cozinha",
+    "subcategory": "Pias e Cubas",
+    "price": 259.00
+  },
+  {
+    "id": "4002",
+    "name": "Sifão Sanfonado Universal Branco",
+    "category": "Cozinha",
+    "subcategory": "Sifões e Ralos",
+    "price": 8.90
+  },
+  {
+    "id": "4003",
+    "name": "Válvula para Pia de Cozinha 3.1/2 Metal",
+    "category": "Cozinha",
+    "subcategory": "Sifões e Ralos",
+    "price": 19.90
+  },
+  {
+    "id": "4004",
+    "name": "Torneira Gourmet de Cozinha Monocomando",
+    "category": "Cozinha",
+    "subcategory": "Metais e Torneiras",
+    "price": 189.90
+  },
+  {
+    "id": "4005",
+    "name": "Filtro de Água para Torneira",
+    "category": "Cozinha",
+    "subcategory": "Acessórios",
+    "price": 29.90
+  },
+  {
+    "id": "5001",
+    "name": "Tinta Acrílica Fosca Branca 18L",
+    "category": "Pintura",
+    "subcategory": "Tintas",
+    "price": 149.00
+  },
+  {
+    "id": "5002",
+    "name": "Rolo de Lã Anti-Respingos 23cm",
+    "category": "Pintura",
+    "subcategory": "Ferramentas de Pintura",
+    "price": 19.90
+  },
+  {
+    "id": "5003",
+    "name": "Trincha Média para Pintura 2.1/2",
+    "category": "Pintura",
+    "subcategory": "Ferramentas de Pintura",
+    "price": 7.50
+  },
+  {
+    "id": "5004",
+    "name": "Fita Crepe Larga 48mm x 50m",
+    "category": "Pintura",
+    "subcategory": "Acessórios",
+    "price": 11.20
+  },
+  {
+    "id": "5005",
+    "name": "Bandeja para Pintura Plástica Grande",
+    "category": "Pintura",
+    "subcategory": "Ferramentas de Pintura",
+    "price": 8.90
+  }
+]
