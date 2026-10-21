@@ -10,6 +10,9 @@
 [![Package](https://img.shields.io/badge/packaged-PyInstaller-red.svg)](https://pyinstaller.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
+
+https://github.com/user-attachments/assets/8de84c61-cb7d-471a-b20d-18ab7a238fc0
+
 ---
 
 ## 📌 Resumo Executivo
