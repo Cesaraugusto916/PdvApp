@@ -1,13 +1,25 @@
 # PdvApp - Frente de Caixa Inteligente e Motor de Recomendações 🛒💡
 
+<div align="center">
+  <video src="./assets/demo.mp4" width="100%" controls autoplay muted loop></video>
+</div>
+
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
 [![Database](https://img.shields.io/badge/database-SQLite3-lightgrey.svg)](https://www.sqlite.org/)
 [![Interface](https://img.shields.io/badge/UI-Tkinter-orange.svg)](https://docs.python.org/3/library/tkinter.html)
 [![Package](https://img.shields.io/badge/packaged-PyInstaller-red.svg)](https://pyinstaller.org/)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-O **PdvApp** é uma solução completa em Python projetada para rodar em segundo plano (*background*) acoplada a sistemas de Ponto de Venda (PDV). Simulando o comportamento de um leitor de código de barras físico (que atua como uma entrada de teclado), o aplicativo captura os itens vendidos em tempo real, analisa o comportamento de compra através de um motor de recomendações em **3 camadas** e sugere dinamicamente produtos complementares em uma interface visual premium.
+---
 
-Idealizado com foco no segmento de **Lojas de Material de Construção**, o projeto serve como um exemplo de arquitetura modular, persistência leve com SQLite3, interceptação de hardware de baixo nível e interfaces gráficas customizadas.
+## 📌 Resumo Executivo
+
+O **PdvApp** é uma solução de engenharia de software desenvolvida para solucionar uma das maiores causas de fricção e perda de receita no varejo físico de materiais de construção: o esquecimento crônico de insumos de instalação (ex: comprar bacia sanitária sem o anel de vedação; comprar tubulações sem adesivo plástico).
+
+A maioria dos pontos de venda (PDVs) do varejo opera sobre ERPs legados fechados a extensões modernas. O PdvApp supera esse gargalo através de um **acoplamento não-intrusivo de baixo nível**:
+- **Interceptador Invisível (Keyboard Wedge Hook):** Monitora passivamente entradas de periféricos físicos (leitores de código de barras USB/HID) em background, sem exigir nenhuma alteração no código-fonte do ERP comercial existente.
+- **Motor Híbrido de Recomendação em 3 Camadas:** Triangula em tempo real a mineração estatística do histórico local de vendas (Market Basket Analysis), regras especialistas de engenharia civil cadastradas em SQLite e sincronização com padrões globais de mercado (Web API com fallback offline).
+- **Interface Flutuante e Injeção Reversa:** Ao finalizar a venda (F12), exibe uma notificação flutuante Dark Mode com animações fluidas e timer que pausa no *hover*. Ao selecionar a sugestão via atalhos rápidos (`F1` a `F3`), o PdvApp injeta o código de barras diretamente na tela do PDV ativo simulando o hardware do leitor, elevando o ticket médio de balcão sem gerar atrito operacional.
 
 ---
 
@@ -74,6 +86,9 @@ PdvApp/
 ├── build_exe.py                   # Script de compilação automática para executável
 ├── main.py                        # Ponto de entrada unificado (seletor CLI)
 │
+├── assets/
+│   └── demo.mp4                   # Vídeo Full HD de demonstração técnica do produto
+│
 ├── database/
 │   ├── db_manager.py              # Schema SQLite, sementes de dados e CRUDs
 │   └── pdv_store.db               # Banco de dados local gerado no primeiro boot
@@ -104,7 +119,7 @@ PdvApp/
 ### Passo 1: Clonar e instalar dependências
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/PdvApp.git
+git clone https://github.com/Cesaraugusto916/PdvApp.git
 cd PdvApp
 
 # Crie e ative um ambiente virtual
